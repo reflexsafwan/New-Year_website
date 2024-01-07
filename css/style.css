@@ -7,6 +7,7 @@
 body{
     font-family: 'Inter', sans-serif;
 }
+/* banner section css */
 header{
    display: flex;
    justify-content: center;
@@ -37,4 +38,30 @@ header{
     font-weight: 900;
 }
 
+/* offer section css */
 
+
+.offer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:120px ;
+}
+.offer-heading{
+    color: #F00;
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+.offer>p{
+    color: #F00;
+    margin-bottom: 16px;
+    font-size: 24px;
+}
+.offer>.catagory{
+    margin-bottom: 48px;
+    font-size: 48px;
+    font-weight: 700;
+    color: #070211;
+}

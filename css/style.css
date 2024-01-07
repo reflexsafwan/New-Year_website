@@ -7,3 +7,34 @@
 body{
     font-family: 'Inter', sans-serif;
 }
+header{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.banner{
+    background-image: url(/images/Banner\ Image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    width: 1320px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.banner-text{
+    text-align: center;
+   
+}
+.banner-text h3{
+    font-size: 32px;
+    font-weight: 400;
+}
+.banner-text h2{
+    font-size: 72px;
+    font-weight: 900;
+}
+
+

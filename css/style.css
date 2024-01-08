@@ -13,14 +13,16 @@ body{
     margin-top: 120px;
     margin-bottom:120px;
 }
-/* .btn{
-    padding: 20px 15px;
+.btn{
+    padding:  16px 32px;
     background-color: #F00;
     border-radius: 10px;
     font-weight: bold;
     border: none;
-    margin-top: 20px;
-} */
+    margin-top: 48px;
+    color: #fff;
+    font-size: 20px;
+}
 /* banner section css */
 header{
    display: flex;
@@ -87,12 +89,12 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-image: url(/images/Vectorrr.png); 
+    /* background-image: url(/images/Vectorrr.png);  */
     background-size: cover;
     background-repeat: no-repeat;
      height: 600px;
     width: 100%;
-     /* background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);  */
+     background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url(/images/Vectorrr.png) center/cover; 
 }
 .welcome-text{
     padding-left: 148px;
@@ -124,7 +126,89 @@ header{
     border-radius: 10px;
 
 }
-
 .welcome-img{
     padding-right: 140px;
+}
+/* meeting area css */
+.meeting-area{
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+        height:482px ;
+        display: flex;
+        align-items: center;justify-content: center;
+}
+.meeting-text h3{
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+
+}
+.mtng-btn{
+    display: flex;
+    align-items: center;
+  
+}
+/* new offer css */
+
+.newoffer-area{
+    display: flex;
+    justify-content: space-between;align-items: center;
+}
+
+.left-side h4{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.left-side h3{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 22px;
+    margin-top: 16px;
+}
+.left-side p{
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; 
+}
+.middle{
+    border: 10px solid red;
+    border-radius: 100%;
+    padding: 30px;
+}
+
+.right-side h2{
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+.right-side p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px; 
+}
+.right-side img{
+    margin-top: 45px;
 }

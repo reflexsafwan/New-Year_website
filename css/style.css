@@ -7,11 +7,26 @@
 body{
     font-family: 'Inter', sans-serif;
 }
+.container{
+    margin-left: 10% ;
+    margin-right: 10%;
+    margin-top: 120px;
+    margin-bottom:120px;
+}
+/* .btn{
+    padding: 20px 15px;
+    background-color: #F00;
+    border-radius: 10px;
+    font-weight: bold;
+    border: none;
+    margin-top: 20px;
+} */
 /* banner section css */
 header{
    display: flex;
    justify-content: center;
    align-items: center;
+   margin-top: 50px;
 }
 .banner{
     background-image: url(/images/Banner\ Image.png);
@@ -64,4 +79,52 @@ header{
     font-size: 48px;
     font-weight: 700;
     color: #070211;
+}
+
+/* welcome area css */
+
+.welcome-area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(/images/Vectorrr.png); 
+    background-size: cover;
+    background-repeat: no-repeat;
+     height: 600px;
+    width: 100%;
+     /* background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);  */
+}
+.welcome-text{
+    padding-left: 148px;
+
+  
+}
+.welcome-text h2{
+    color:#fff;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px; 
+    letter-spacing: 7.04px;
+}
+.welcome-text p{
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.welcome-text button{
+    margin-top: 48px;
+    color: #fff;
+    padding: 15px 10px;
+    font-size: 20px;
+    font-weight: 700;
+    background-color:rgb(67, 67, 67);
+    border: none;
+    border-radius: 10px;
+
+}
+
+.welcome-img{
+    padding-right: 140px;
 }

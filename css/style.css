@@ -212,3 +212,47 @@ header{
 .right-side img{
     margin-top: 45px;
 }
+
+
+/* portfolio css */
+
+.portfolio-content h4{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+
+ 
+}
+.portfolio-content h3{
+    color: #070211;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 16px;
+    margin-bottom:22px ;
+
+}
+.portfolio-content p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; 
+} 
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 10px;
+    row-gap: 20px;
+    margin-top: 48px;
+}
+.grid-item img:hover{
+    border: 5px solid red;
+    border-radius: 20px;
+    transition-property:border;
+    transition-duration: 0.2s;
+}
